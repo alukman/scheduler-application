@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <title-page/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TitlePage from './components/TitlePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TitlePage
   }
 }
 </script>
 
+    TitlePage
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
